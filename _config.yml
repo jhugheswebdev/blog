@@ -1,6 +1,7 @@
 #
 # This file contains configuration flags to customize your site
 #
+markdown: redcarpet
 
 # Name of your site (displayed in the header)
 name: James Hughes
