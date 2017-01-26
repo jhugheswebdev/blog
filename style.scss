@@ -198,7 +198,7 @@ img {
   font-family: $sourceSansPro;
   font-weight: 300;
   font-size: 38px;
-  letter-spacing: 1px;
+  letter-spacing: 7px;
 }
 
 .site-description {
@@ -206,6 +206,7 @@ img {
   color: $gray;
   font-family: $sourceSansPro;
   font-size: 26px;
+  
 
   @include mobile {
     margin: 3px 0;
