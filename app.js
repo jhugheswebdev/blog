@@ -1,4 +1,4 @@
-var $allVideos = $(("iframe[src^='//player.vimeo.com'], iframe[src^='//www.youtube.com']"),
+var $allVideos = $(("iframe[src^='//player.vimeo.com']"),
 
     $fluidEl = $("body");
 
