@@ -117,7 +117,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $blue;
 }
 
 // Specify the color of the selection
@@ -206,7 +206,7 @@ img {
   color: $gray;
   font-family: $sourceSansPro;
   font-size: 26px;
-  
+
 
   @include mobile {
     margin: 3px 0;
