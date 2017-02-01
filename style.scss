@@ -272,6 +272,19 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+  .videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+  }
+  .videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;ß
+	height: 100%;
+  }
 }
 
 .wrapper-footer {
