@@ -43,21 +43,3 @@ After some further thought and conversations with my Creative Director, I revise
 ![Product page web](/images/product-page-layout-web.JPG)
 <h4>Mobile mockup:</h4>
 ![Product page mobile](/images/product-page-layout-mobile.JPG)
-
-[//]: # (High fidelity mockups/videos)
-
-![Ad Specs hifi web mockup](/images/ad-specs-hifi-web.jpeg)
-
-<div class="videoWrapper">
-  <iframe src="https://player.vimeo.com/video/202083904" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-
-
-![Ad Specs hifi web mockup version 2](/images/ad-specs-hifi-web-version2.jpeg)
-
-<div class="videoWrapper">
-  <iframe src="https://player.vimeo.com/video/202084223" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-
-[//]: # (Final mockup)
-![Final mockup](/images/final-mockup.png)
