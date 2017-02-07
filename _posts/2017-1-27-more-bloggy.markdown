@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ad Specs Page - 'In High-Fidelity'
+title: AD SPECS PAGE - 'In High-Fidelity'
 ---
 [//]: # (High fidelity mockups/videos)
 <h3>High-Fidelity Mockups</h3>
