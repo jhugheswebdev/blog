@@ -57,12 +57,14 @@ h2 {
 
 h3 {
   font-size: 20px;
+  font-style: italic;
 }
 
 h4 {
   font-size: 18px;
   color: $darkGray;
   padding-top: 3px;
+  font-style: italic;
 }
 
 p {
@@ -198,8 +200,8 @@ img {
   color: $darkerGray;
   cursor: pointer;
   font-family: $sourceSansPro;
-  font-weight: 300;
-  font-size: 38px;
+  font-weight: 400;
+  font-size: 39px;
   letter-spacing: 7px;
 }
 
