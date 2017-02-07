@@ -2,7 +2,7 @@
 layout: post
 title: My first week as a Front-End Development and Design Intern!
 ---
-![IndustryDiveLogo](images/industry_dive.jpg)
+![IndustryDiveLogo](/Users/nforman/Documents/Jhughes/jhugheswebdev.githhub.io/images/industry_dive.jpg)
 
 This is it! I'm finally here, making my transition into an entirely different career. I don't think I could have picked a better company to start with. A lot of firsts in my first week alone, my first experience in a startup culture, my first company meeting, my first job indulging my creative side.
 
