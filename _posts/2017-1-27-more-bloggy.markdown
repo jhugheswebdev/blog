@@ -2,23 +2,18 @@
 layout: post
 title: AD SPECS PAGE - 'In High-Fidelity'
 ---
+<div class="videoWrapper">
+<iframe src="https://player.vimeo.com/video/202083904" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+![Ad Specs hifi web mockup](/images/ad-specs-hifi-web.jpeg)
+
+
 [//]: # (High fidelity mockups/videos)
 <h3>High-Fidelity Mockups</h3>
 Once I had the planning of my layout it was time for the high-fidelity mockups. High-fidelity closely matches the visual and interaction designs the final product is likely to have. Generally high-fidelity prototypes are meant to incorporate everything that comprises the final product at that stage.
 
 Instead of having a top nav bar for the links to the anchor tags as I had earlier, for easier navigation and a better layout I put the link in Table of Contents form.
-
-
-
-
-<h4>Version 1.0</h4>
-![Ad Specs hifi web mockup](/images/ad-specs-hifi-web.jpeg)
-
-<div class="videoWrapper">
-  <iframe src="https://player.vimeo.com/video/202083904" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-
-
 
 
 <h4>Version 2.0</h4>
