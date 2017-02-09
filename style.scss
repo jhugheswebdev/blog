@@ -55,6 +55,7 @@ h1 {
 
 h2 {
   font-size: 26px;
+  margin: 24px 0 10px 0;
 }
 
 h3 {
@@ -72,7 +73,7 @@ h4 {
 }
 
 p {
-  margin: 12px 0 15px 0;
+  margin: 12px 0 45px 0;
 }
 
 a {
@@ -114,11 +115,10 @@ strong, b {
 }
 
 img {
-    color: black;
-    border-style: solid;
+    border: $gray;
+    border-style: none;
     max-width: 100%;
 }
-
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -213,9 +213,10 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $darkGray;
-  font-family: $sourceSansPro;
+  color: $gray;
+  font-family: $lato;
   font-size: 26px;
+  font-weight: 500;
 
 
   @include mobile {
