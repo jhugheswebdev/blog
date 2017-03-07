@@ -38,7 +38,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $lato;
   color: $darkerGray;
   line-height: 1.7;
-  margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -47,7 +46,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 10px;
   a {
     color: inherit;
   }
@@ -59,9 +60,6 @@ h2 {
 }
 
 h3 {
-  font-size: 22px;
-  font-style: italic;
-  margin-bottom: 0;
 }
 
 h4 {
@@ -73,7 +71,9 @@ h4 {
 }
 
 p {
-  margin: 12px 0 45px 0;
+  margin: 1px 0 24px 0;
+  font-size: 20px;
+  font-weight: 100;
 }
 
 a {
@@ -96,6 +96,9 @@ ul {
 
 ol {
   list-style-type: decimal;
+  li {
+      font-weight: 100;
+  }
 }
 
 ol ul, ul ol, ul ul, ol ol {
@@ -160,12 +163,11 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 24px;
   color: $darkGray;
 }
 
 .masthead {
-  padding: 20px 0;
   border-bottom: 1px solid $gray;
   color: $darkerGray;
 
@@ -178,7 +180,7 @@ img {
   float: left;
   width: 90px;
   height: 90px;
-  margin-right: 15px;
+  margin: 20px 16px 0px 0px;
 
   @include mobile {
     float: none;
@@ -187,12 +189,12 @@ img {
   }
 
   img {
-    border-radius: 5px;
   }
 }
 
 .site-info {
   float: left;
+  margin: 12px 0px 12px 2px;
 
   @include mobile {
     float: none;
@@ -207,16 +209,16 @@ img {
   cursor: pointer;
   font-family: $lato;
   font-weight: 400;
-  font-size: 39px;
+  font-size: 42px;
   letter-spacing: 2px;
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: -9px 0 0 1px;
   color: $darkGray;
   font-family: $lato;
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 100;
 
 
   @include mobile {
@@ -226,9 +228,9 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helvetica;
-  font-size: 28px;
+  font-family: $lato;
+  font-size: 24px;
+  margin: 61px 57px 0 0; // @TODO: Vertically middle align
 
   @include mobile {
     float: none;
@@ -238,11 +240,9 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 7px;
     color: $gray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: 100;
 
     @include mobile {
       margin: 0 10px;
