@@ -5,8 +5,7 @@ title: AD SPECS PAGE - 'In High-Fidelity'
 
 
 [//]: # (High fidelity mockups/videos)
-###High-Fidelity Mockups
-Once I had the planning of my layout it was time for the high-fidelity mockups. High-fidelity closely matches the visual and interaction designs the final product is likely to have. Generally high-fidelity prototypes are meant to incorporate everything that comprises the final product at that stage.
+I had the planning of my layout, now it was time for the high-fidelity mockups. High-fidelity closely matches the visual and interaction designs the final product is likely to have. Generally high-fidelity prototypes are meant to incorporate everything that comprises the final product at that stage.
 
 Instead of having a top nav bar for the links to the anchor tags as I had earlier, for easier navigation and a better layout I put the link in Table of Contents form.
 

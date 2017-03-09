@@ -4,9 +4,7 @@ title: Ad Specs Page  - 'All By Grand Design'
 ---
 
 [//]: # (Planning/Wireframes)
-This week I was tasked with designing and developing a static single page site for the Sales and Ad Ops team. The problem, use cases and solution as presented below.
-
-Design is an iterative process, I sketched, wireframed, revised my wireframes, created mockups, revised those mockups, until eventually some form of final design emerges.
+This week I was tasked with designing and developing a static single page site for the Sales and Ad Ops team. The problem, use cases and solution as presented below. Design is an iterative process, I sketched, wireframed, revised my wireframes, created mockups, revised those mockups, until eventually some form of final design emerges.
 
 ###The Problem
 It's difficult for Sales and Ad Ops to provide product specs and examples to clients. Doing so requires them to manually aggregate the ad specs and ad examples applicable to the client (typically from past emails, campaigns, etc.), organize them into some presentable format and then email it to them.
