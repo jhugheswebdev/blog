@@ -21,13 +21,13 @@ html {
 
 body {
 	background: $white;
-  font: 20px/1.4 $lato;
   color: $darkGray;
-    margin: 20px;
+  font: 20px/1.4 $lato;
+  margin-top: 3rem;
 }
 
 .container {
-  margin: 20px;
+  margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
@@ -188,7 +188,7 @@ img {
   float: left;
   width: 90px;
   height: 90px;
-  margin: 20px 16px 0px 0px;
+  margin: 10px 16px 0px 0px;
 
   @include mobile {
     float: none;
@@ -239,7 +239,7 @@ nav {
   font-family: $lato;
   font-size: 24px;
   font-weight: 300;
-  margin: 61px 0 0 0; // @TODO: Vertically middle align
+  margin: 55px 20px 0 0; // @TODO: Vertically middle align
 
   @include mobile {
     float: none;
