@@ -221,6 +221,10 @@ img {
   letter-spacing: 2px;
 }
 
+@@include mobile {
+  font-weight: 600;
+}
+
 .site-description {
   margin: -9px 0 0 1px;
   color: $darkGray;
@@ -230,6 +234,7 @@ img {
 
 
   @include mobile {
+    font-weight: 400;
     margin: 3px 0;
   }
 }
@@ -243,9 +248,9 @@ nav {
 
   @include mobile {
     float: none;
-    margin-top: 9px;
+    margin: 9px 0 9px 0;
     display: block;
-    font-size: 16px;
+    font-size: 25px;
   }
 
   a {
