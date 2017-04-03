@@ -23,7 +23,6 @@ body {
 	background: $white;
   color: $darkGray;
   font: 20px/1.4 $lato;
-  margin-top: 3rem;
 }
 
 .container {
@@ -195,11 +194,9 @@ img {
 
   @include mobile {
     float: none;
+    font-size: 70px;
     display: block;
-    margin: 0 auto;
-  }
-
-  img {
+    margin: 3px auto 24px auto;
   }
 }
 
@@ -222,6 +219,10 @@ img {
   font-weight: 400;
   font-size: 50px;
   letter-spacing: 2px;
+  @include mobile {
+      font-size: 45px;
+
+  }
 }
 
 @include mobile {
@@ -234,12 +235,11 @@ img {
   font-family: $lato;
   font-size: 32px;
   font-weight: 300;
-
-
   @include mobile {
-    font-weight: 400;
-    margin: 3px 0;
-  }
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 auto;
+    }
 }
 
 nav {
@@ -251,9 +251,9 @@ nav {
 
   @include mobile {
     float: none;
-    margin: 9px 0 9px 0;
+    margin: 11px 0 9px 0;
     display: block;
-    font-size: 25px;
+    font-size: 22px;
   }
 
   a {
@@ -291,9 +291,6 @@ nav {
     color: $lightGray;
     font-size: 22px;
     font-style: italic;
-    .entry {
-
-    }
   }
 
   .comments {
