@@ -6,11 +6,11 @@ title: How do you design sidebar content for a mobile view?
 I was assigned the task of making our sidebar content accessible on small and medium screen views, currently, the sidebar content is only viewable on large screens.
 
 There were several questions I needed to ask before I started planning:
-* The current mobile main page shows 25 articles, Would I be allowed to drop the articles listed to 15 or 20? Less scrolling for the user to get to the sidebar content.
+* The current mobile main page shows 25 articles, Would I be allowed to drop the articles listed to 15 or 20?
 * Should anything be shown before the sidebar content boxes?
 * Should an accordion style dropdown be considered for the sidebar content?
 
-I created several different wireframes to see what would be the most efficient to meet the requirements. I revised those wireframes to two of the best options that met the requirements. I took those two wireframes and fully detailed them into mockups using the Sketch program.
+I created several different wireframes to see what would be the most efficient way to meet the requirements. I revised those wireframes to two of the best options that met the requirements. I took those two wireframes and fully detailed them into mockups using the Sketch program.
 
 I ran these mockups by my Creative Director, and we agreed upon the design that closely resembled how the sidebar appeared on the main page.  
 
