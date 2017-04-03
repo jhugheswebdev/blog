@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How do you design sidebar content for mobile view?
+title: How do you design sidebar content for a mobile view?
 ---
 
 I was assigned the task of making our sidebar content accessible on small and medium screen views, currently, the sidebar content is only viewable on large screens.
