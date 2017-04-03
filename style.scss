@@ -174,18 +174,16 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 24px;
-  color: $darkGray;
+    color: $darkGray;
+    margin-bottom: 24px;
 }
 
 .masthead {
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid $gray;
   color: $darkerGray;
-
-
-  @include mobile {
+    @include mobile {
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 0px;
   }
 }
 
@@ -193,7 +191,7 @@ img {
   float: left;
   width: 90px;
   height: 90px;
-  margin: 10px 16px 0px 0px;
+  margin: 24px 19px 0 0;
 
   @include mobile {
     float: none;
@@ -207,7 +205,7 @@ img {
 
 .site-info {
   float: left;
-  margin: 12px 0px 12px 2px;
+  margin: 20px 0px 12px 2px;
 
   @include mobile {
     float: none;
@@ -222,7 +220,7 @@ img {
   cursor: pointer;
   font-family: $lato;
   font-weight: 400;
-  font-size: 42px;
+  font-size: 50px;
   letter-spacing: 2px;
 }
 
@@ -234,7 +232,7 @@ img {
   margin: -9px 0 0 1px;
   color: $darkGray;
   font-family: $lato;
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 300;
 
 
@@ -249,7 +247,7 @@ nav {
   font-family: $lato;
   font-size: 24px;
   font-weight: 300;
-  margin: 55px 20px 0 0; // @TODO: Vertically middle align
+  margin: 63px 36px 0 0; // @TODO: Vertically middle align
 
   @include mobile {
     float: none;
@@ -277,7 +275,7 @@ nav {
 
 .posts > .post {
     margin-bottom: 20px;
-    border-bottom: 1px solid $gray;
+    border-bottom: 1px dotted $gray;
     margin-left: 0;
 }
 
