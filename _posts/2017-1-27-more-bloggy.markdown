@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AD SPECS PAGE - 'In High-Fidelity'
+title: Ad Specs Page - 'In High-Fidelity'
 ---
 
 
