@@ -8,6 +8,7 @@ This week I was tasked with designing and developing a static single page site f
 
 ## The Problem
 It's difficult for Sales and Ad Ops to provide product specs and examples to clients. Doing so requires them to manually aggregate the ad specs and ad examples applicable to the client (typically from past emails, campaigns, etc.), organize them into some presentable format and then email it to them.
+
 ### Primary Users & Use Cases
   1. Sales : to easily provide details on and examples of specific placements that a client is considering; a supplement to the media kit that gets more granular, not a replacement for the media kit;
   2. Ad Ops : an easy to link site that provides technical details, due dates, and examples for clients. Source of record for specs of our placements.
