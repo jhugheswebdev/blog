@@ -40,7 +40,6 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: $red;
     @include mobile {
     line-height: 1.4;
   }
@@ -51,7 +50,6 @@ h1 {
     font-size: 28px;
     font-weight: 400;
     margin-bottom: 10px;
-    text-align: center;
     a {
         color: inherit;
     }
@@ -178,7 +176,7 @@ img {
 }
 
 .masthead {
-  border-bottom: 1px solid $gray;
+  border-bottom: 1px solid transparent;
   color: $darkerGray;
     @include mobile {
     text-align: center;
@@ -246,9 +244,7 @@ nav {
   float: right;
   font-family: $lato;
   font-size: 24px;
-  font-weight: 300;
   margin: 63px 36px 0 0; // @TODO: Vertically middle align
-
   @include mobile {
     float: none;
     margin: 11px 0 9px 0;
@@ -260,8 +256,6 @@ nav {
     font-family: $sourceSansPro;
     margin-left: 7px;
     color: $gray;
-    font-weight: 300;
-
     @include mobile {
       margin: 0 10px;
       color: $blue;
@@ -274,9 +268,10 @@ nav {
 //
 
 .posts > .post {
-    margin-bottom: 20px;
     border-bottom: 1px dotted $gray;
+    margin-bottom: 20px;
     margin-left: 0;
+    padding: 3rem 0 2rem 0;
 }
 
 .posts > .post:last-child {
