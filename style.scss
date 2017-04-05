@@ -129,7 +129,7 @@ strong, b {
 }
 
 img {
-    border: $gray;
+    border: 1px solid #e9ecef;
     border-style: none;
     max-width: 100%;
 }
@@ -275,7 +275,7 @@ nav {
     border-bottom: 1px dotted $gray;
     margin-bottom: 20px;
     margin-left: 0;
-    padding: 3rem 0 2rem 0;
+    padding: 3rem 0 1rem 0;
 }
 
 .posts > .post:last-child {
