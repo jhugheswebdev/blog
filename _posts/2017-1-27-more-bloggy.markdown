@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Ad Specs Page - 'In High-Fidelity'
+title: Ad Specs Page - Revisions & Final Mockup
 ---
-
 
 [//]: # (High fidelity mockups/videos)
 I had the planning of my layout, now it was time for the high-fidelity mockups. High-fidelity closely matches the visual and interaction designs the final product is likely to have. Generally high-fidelity prototypes are meant to incorporate everything that comprises the final product at that stage.

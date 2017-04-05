@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ad Specs Page  - 'All By Grand Design'
+title: Ad Specs Page  - Planning
 ---
 
 [//]: # (Planning/Wireframes)

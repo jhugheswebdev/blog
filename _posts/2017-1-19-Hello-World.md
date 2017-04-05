@@ -8,4 +8,4 @@ This is it! I'm finally here, making my transition into an entirely different ca
 
 ![GALogo](http://www.coindesk.com/wp-content/themes/coindesk2/images/events/consensus-2015/sponsors-and-partners/general-assembly.png)
 
-I’m eager to learn more about design, get seasoned as a front-end developer, and hopefully be able to contribute more than just a little bit to the company.
+I’m eager to learn more about design, to get seasoned as a front-end developer, and hopefully be able to contribute more than just a little to the company.
