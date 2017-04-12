@@ -5,7 +5,7 @@ title: How do you design sidebar content for a mobile view?
 
 I was assigned the task of making our sidebar content accessible on small and medium screen views. Currently, the sidebar content is only viewable on large screens.
 
-![Current sidebar view](site/images/sidebar-current-view.png)
+![Current sidebar view](https://cloud.githubusercontent.com/assets/19156146/24972992/38fe4a18-1f8b-11e7-8893-b181191b9d8f.png)
 
 
 There were several questions I needed to ask before I started planning:
