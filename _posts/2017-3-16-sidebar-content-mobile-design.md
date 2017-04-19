@@ -19,7 +19,7 @@ I created several different wireframes to visualize what would best meet the req
 ![sidebar_content_mobile_revision_1 1](https://cloud.githubusercontent.com/assets/19156146/24973686/b00aebdc-1f8d-11e7-85ff-a3cc022c3e09.png)<br>
 _Medium fidelity prototypes implementing images_
 
-I ran these mockups by my Creative Director, and we agreed upon the design that closely resembled how the sidebar appeared on the main page. Choosing this design would allow us to utilize already existing code from the sidebar. This would meet all the requirements for the assignment given.
+I ran these mockups by my Creative Director, and we agreed upon the design that closely resembled how the sidebar appeared in the large screen view. Choosing this design would allow us to utilize already existing code from the sidebar. This would meet all the requirements for the assignment given.
 
 ![sidebar_content_mobile_revision_3 1](https://cloud.githubusercontent.com/assets/19156146/24973823/33f685e6-1f8e-11e7-9ed9-58b2201e0e5e.png)<br>
 _Medium fidelity prototype utilizing existing design_
