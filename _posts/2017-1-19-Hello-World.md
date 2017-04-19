@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My first week as a Front-End Development and Design Intern!
+title: My first week as a Front-End Development and Design Intern
 ---
 ![IndustryDiveLogo](http://i.imgur.com/we0QrLn.jpg)
 

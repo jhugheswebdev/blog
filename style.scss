@@ -14,32 +14,33 @@
 /**************/
 
 html {
-  font-size: 100%;
-  margin-top: 1rem;
+    font-size: 100%;
+    margin-top: 2rem;
 }
 
 
 
 body {
-	background: $white;
-  color: $darkGray;
-  font: 20px/1.4 $lato;
+    background: $white;
+    color: $darkGray;
+    font: 20px/1.4 $helveticaNeue;
+    margin: 0 auto;
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 806px;
-  padding: 0 2px;
-  width: 100%;
-  .page {
-      padding-top: 3rem;
-  }
-  @include mobile {
-      padding: 0 27px;
-      .page {
-          padding-top: 1rem;
-      }
-  }
+    margin: 0 auto;
+    max-width: 806px;
+    padding: 0 2px;
+    width: 100%;
+    .page {
+        padding-top: 3rem;
+    }
+    @include mobile {
+        padding: 0 27px;
+        .page {
+            padding-top: 1rem;
+        }
+    }
 }
 
 hr {
@@ -48,23 +49,28 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
     @include mobile {
-    line-height: 1.4;
-  }
+        line-height: 1.4;
+    }
 }
 
 h1 {
-    font-family: $lato;
-    font-size: 28px;
+    font-family: $oswald;
+    font-size: 34px;
     font-weight: 400;
+    letter-spacing: .02em;
     margin-bottom: 10px;
+    text-transform: uppercase;
     a {
         color: inherit;
     }
 }
 
 h2 {
-  font-size: 26px;
-  margin: 24px 0 10px 0;
+    font-family: $oswald;
+    font-size: 24px;
+    letter-spacing: .03em;
+    margin: 24px 0 4px 0;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -72,51 +78,51 @@ h3 {
 }
 
 h4 {
-  font-size: 20px;
-  color: $darkGray;
-  padding-top: 3px;
-  font-style: italic;
-  margin-bottom: 0;
+    font-size: 20px;
+    color: $darkGray;
+    padding-top: 3px;
+    font-style: italic;
+    margin-bottom: 0;
 }
 
 p {
-  font-size: 20px;
-  font-weight: 300;
-  margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 18px;
 }
 
 a {
-  color: $blue;
-  text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
     color: $blue;
-  }
+    text-decoration: none;
+    cursor: pointer;
+    &:hover, &:active {
+        color: $blue;
+    }
 }
 
 ul, ol {
-  margin: 2px 0 15px 0;
-  padding-left: 30px;
+    margin: 2px 0 15px 0;
+    padding-left: 30px;
 }
 
 ul {
-  list-style-type: disc;
-  font-weight: 300;
+    list-style-type: disc;
+    font-weight: 300;
 }
 
 ol {
-  list-style-type: decimal;
-  li {
-      font-weight: 300;
-  }
+    list-style-type: decimal;
+    li {
+        font-weight: 300;
+    }
 }
 
 ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
+    margin: 0;
 }
 
 ul ul, ol ul {
-  list-style-type: circle;
+    list-style-type: circle;
 }
 
 a+a {
@@ -124,11 +130,12 @@ a+a {
     padding-left: 6px;
 }
 em, i {
-  font-style: italic;
+    font-style: italic;
+    font-size: 18px;
 }
 
 strong, b {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 img {
@@ -138,24 +145,24 @@ img {
 }
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
-  max-width: none;
+    max-width: none;
 }
 
 .date {
-  color: $gray;
-  font-size: 13px;
-  margin-bottom: 25px;
-  text-transform: uppercase;
+    color: $gray;
+    font-size: 13px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+    color: $black;
+    background: $lightGray;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+    color: $black;
+    background: $lightGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -184,89 +191,88 @@ img {
 }
 
 .masthead {
-  border-bottom: 1px solid transparent;
-  color: $darkerGray;
+    border-bottom: 1px solid transparent;
+    color: $darkerGray;
     @include mobile {
-    text-align: center;
-    margin: 20px 0px;
-  }
+        text-align: center;
+        margin: 20px 0px;
+    }
 }
 
 .site-avatar {
-  float: left;
-  width: 90px;
-  height: 90px;
-  margin: 30px 19px 0 0;
+    float: left;
+    width: 97px;
+    margin: 40px 20px 0 0;
 
-  @include mobile {
-    float: none;
-    font-size: 70px;
-    display: block;
-    margin: 3px auto 24px auto;
-  }
+    @include mobile {
+        float: none;
+        font-size: 70px;
+        display: block;
+        margin: 3px auto 24px auto;
+    }
 }
 
 .site-info {
-  float: left;
-  margin: 20px 0px 12px 2px;
+    float: left;
+    margin: 21px 0px 12px 2px;
 
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
+    @include mobile {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 .site-name {
-  margin: 0;
-  color: $darkerGray;
-  cursor: pointer;
-  font-family: $lato;
-  font-weight: 400;
-  font-size: 50px;
-  letter-spacing: 2px;
-  @include mobile {
-      font-size: 45px;
-
-  }
+    margin: 0;
+    color: $darkerGray;
+    cursor: pointer;
+    font-family: $oswald;
+    font-weight: 400;
+    font-size: 65px;
+    letter-spacing: .06em;
+    @include mobile {
+        font-size: 45px;
+    }
 }
 
 @include mobile {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .site-description {
-  margin: -9px 0 0 1px;
-  color: $darkGray;
-  font-family: $lato;
-  font-size: 32px;
-  font-weight: 300;
-  @include mobile {
-    font-size: 24px;
+    color: $darkGray;
+    font-family: $lato;
+    font-size: 32px;
     font-weight: 300;
-    margin: 0 auto;
+    letter-spacing: .03em;
+    margin: -9px 0 0 1px;
+    @include mobile {
+        font-size: 24px;
+        font-weight: 300;
+        margin: 0 auto;
     }
 }
 
 nav {
-  float: right;
-  font-family: $lato;
-  font-size: 24px;
-  margin: 68px 23px 0 0; // @TODO: Vertically middle align
-  @include mobile {
-    float: none;
-    margin: 11px 0 9px 0;
-    display: block;
-    font-size: 22px;
-  }
-
-  a {
-    font-family: $sourceSansPro;
-    color: $gray;
+    float: right;
+    font-family: $lato;
+    font-size: 24px;
+    margin: 88px 0 0 0; // @TODO: Vertically middle align
     @include mobile {
-      color: $blue;
+        float: none;
+        margin: 11px 0 9px 0;
+        display: block;
+        font-size: 22px;
     }
-  }
+
+    a {
+        font-family: $lato;
+        color: $gray;
+        @include mobile {
+            color: $blue;
+        }
+    }
 }
 
 //
@@ -284,55 +290,54 @@ nav {
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+    padding-bottom: 1em;
+    border-bottom: none;
 }
 
 .post {
-  blockquote {
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $lightGray;
-    font-size: 22px;
-    font-style: italic;
-  }
+    blockquote {
+        border-left: 2px solid $gray;
+        padding: 0.1em 1em;
+        color: $lightGray;
+        font-size: 22px;
+        font-style: italic;
+    }
 
-  .comments {
-    margin-top: 10px;
-  }
+    .comments {
+        margin-top: 10px;
+    }
 
-  .read-more {
-    font-size: 15px;
-    text-transform: uppercase;
-  }
+    .read-more {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
 }
 article {
     padding-top: 3rem;
 }
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
 }
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid $darkGray;
-  border-bottom: 1px solid $darkGray;
-  background-color: $darkGray;
-}
 
-footer {
-  padding: 20px 0;
-  text-align: center;
+.footer {
+    background-color: $darkGray;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    a {
+        padding: 0;
+    }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

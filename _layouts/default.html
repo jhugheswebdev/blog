@@ -10,6 +10,8 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
@@ -36,20 +38,13 @@
         </header>
       </div>
     </div>
-
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
     {% include analytics.html %}
-    <script id="dsq-count-scr" src="//jhugheswebdev.disqus.com/count.js" async></script>
   </body>
+
+  <footer class="footer">
+      {% include svg-icons.html %}
+  </footer>
 </html>
