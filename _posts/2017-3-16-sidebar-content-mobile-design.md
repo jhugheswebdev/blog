@@ -34,4 +34,4 @@ _Final product, small screen view_
 ![screenshot 2017-04-05 14 40 14](https://cloud.githubusercontent.com/assets/19156146/24974284/ac026072-1f8f-11e7-8abe-2d643d1cb5e4.png)<br>
 _Final product, medium screen view_
 
-This is a major learning point that I’ve been taught at Industry Dive, you have to think of the user first, and what kind of user you accommodate for. You can read more about this in my last blog [here](http://www.jhugheswebdev.com/user-interface-design/).
+This is a major learning point that I’ve been taught at Industry Dive, you have to think of the user first, and what kind of user you accommodate for. You can read more about this in my previous blog [here](http://www.jhugheswebdev.com/user-interface-design/).
