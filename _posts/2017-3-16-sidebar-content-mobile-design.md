@@ -24,7 +24,7 @@ I ran these mockups by my Creative Director, and we agreed upon the design that 
 ![sidebar_content_mobile_revision_3 1](https://cloud.githubusercontent.com/assets/19156146/24973823/33f685e6-1f8e-11e7-9ed9-58b2201e0e5e.png)<br>
 _Medium fidelity prototype utilizing existing design_
 
-The unselected design implemented an image and would rely on the editorial staff selecting high-quality images consistently. This could pose a problem if the images selected are not high-quality, and those images on mobile might slow load time for the site.
+The rejected design implemented an image and would rely on the editorial staff selecting high-quality images consistently. This could pose a problem if the images selected are not high-quality, and those images on mobile might slow load time for the site.
 
 The chosen design could use the existing code, making it more efficient and time-saving than creating brand new code from scratch for aesthetic appeal. This design does not include images, including images in the sidebar design would not add much to the user experience.
 
