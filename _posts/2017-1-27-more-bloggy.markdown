@@ -10,7 +10,7 @@ Instead of having a top nav bar for the links to the anchor tags as I had earlie
 
 
 ## Version 2.0
-After receiving some input from my Creative Director on my version 1.0 high-fidelity mockups, I positioned the TOC-style links into a side nav bar for better UI. Having the navigation links on the side, the user can easily move from one section to another without having to go to the top of the page.
+After receiving some input from my Creative Director on my first mockups, I positioned the TOC-style links into a side nav bar for better UI. Having the navigation links on the side, the user can move from one section to another without having to go to the top of the page.
 
 
 ## The Final Mockup
