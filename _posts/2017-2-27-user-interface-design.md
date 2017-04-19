@@ -3,7 +3,7 @@ layout: post
 title: What I've learned about User Interface Design
 ---
 
-A significant learning point for me, as a part of the Industry Dive design team, is the user- first mentality. Above form is the function, and above all is the user. Until interning at Industry Dive, I did not have to put much thought into meeting the exact needs of a customer or user. I’ve also learned that, in order to have an effective UI design, users must easily and intuitively able to accomplish their goals.
+A significant learning point for me, as a part of the Industry Dive design team, is the user- first mentality. Above form is the function, and above all is the user. Until interning at Industry Dive, I did not have to put much thought into meeting the exact needs of a customer or user. I’ve also learned that, in order to have an effective UI design, users must be able to easily and intuitively accomplish their goals.
 
 ## Form Follows Function
 Form follows function is a modernist architecture principle coined by architect [Louis Sullivan](https://en.wikipedia.org/wiki/Louis_Sullivan). The idea is that the shape of an object or building should be based primarily on its function, rather than aesthetics. This principle also applies to user interface design. I’ve learned that design is not all about the flash and “wow” factor. It’s not about how many snazzy animations you can fit onto a site. It’s about using this flash and “wow” in more calculated and strategic ways to call attention to what is important on your site/application and not overwhelm the user. Treat your user’s attention wisely, and you will get better results.
