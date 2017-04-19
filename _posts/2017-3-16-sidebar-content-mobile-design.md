@@ -26,7 +26,7 @@ _Medium fidelity prototype utilizing existing design_
 
 The rejected design implemented an image and would rely on the editorial staff selecting high-quality images consistently. This could pose a problem if the images selected are not high-quality, and those images on mobile might slow load time for the site.
 
-The chosen design could use the existing code, making it more efficient and time-saving than creating brand new code from scratch for aesthetic appeal. This design does not include images, including images in the sidebar design would not add much to the user experience.
+The preferred design uses the existing code, making it more efficient and time-saving than creating brand new code to improve aesthetic appeal. Including images for each listed article would not add much to the user experience.
 
 ![screenshot 2017-04-12 14 49 40](https://cloud.githubusercontent.com/assets/19156146/24974202/572e84ae-1f8f-11e7-9e8b-e007cff691c9.png)<br>
 _Final product, small screen view_
