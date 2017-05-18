@@ -3,7 +3,7 @@ layout: post
 title: The Differences between EM, REM and PX
 ---
 
-One of my first confusions, when I looked at the company's code, was the difference usages of units of measure used in the `SCSS`. There is `px`, `em`, and `rem`, I noticed that `rem` is used primarily for the margin and padding, but `px` is used for the sizing of images or icons. I didn't understand the reasoning behind this until I started to do my research.
+One of my first confusions, when I looked at the company's code, was the different units of measure used in the `SCSS`. There is `px`, `em`, and `rem`, I noticed that `rem` is used primarily for the spacing and sizing, but `px` is used for the sizing of images or icons. I didn't understand the reasoning behind this until I started to do my research.
 
 
 
@@ -25,7 +25,7 @@ We're all accustomed to using `px` for sizing, the problem with that is if you s
 
 ## Using em for media queries
 
-We use `em` for media queries because it remains the most consistent in resizing breakpoints through different browsers. Here's a very informative blog post about why using `em` is preferred for media queries: Media query units
+We use `em` for media queries because it remains the most consistent in resizing breakpoints through different browsers. Here's a very informative blog post about why using `em` is preferred for media queries. The author ran tests on the breakpoints for `rem`, `em` and `px` and ran them on different browsers: [Media query units](https://zellwk.com/blog/media-query-units/)
 
 
 
